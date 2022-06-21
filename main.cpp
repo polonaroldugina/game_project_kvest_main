@@ -83,7 +83,7 @@ void drawQuad(RenderWindow &w, Color c, int x1,int y1,int w1,int x2,int y2,int w
 
 struct Line
 {
-    //задаем
+    //задаем линию нашей дороги
     float x,y,z; //объемный центр видимости
     float X,Y,W; //параметры экрана
     float curve,spriteX,clip,scale;
